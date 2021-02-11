@@ -1,6 +1,8 @@
 /*=============================================
 SLIDE
 =============================================*/
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 #slide{
 	position:relative;
@@ -33,9 +35,9 @@ SLIDE
 #slide .slideOpcion1 img{
 	position:absolute;
 	opacity:1;
-	/*top:15%;
+	top:15%;
 	right:10%;
-	width:45%;*/
+	width:45%;
 }
 
 #slide .slideOpcion1 .textosSlide{
@@ -63,24 +65,21 @@ SLIDE
 }
 
 #slide .slideOpciones h1{	
-	text-transform: uppercase;
-	font-family: 'Ubuntu Condensed', sans-serif;
+	font-family:'Poppins', sans-serif;
 	opacity:1;
 	top:-10%;
 	/*color:#333;*/
 }
 
 #slide .slideOpciones h2{
-	text-transform: uppercase;
-	font-family: 'Ubuntu Condensed', sans-serif;
+	font-family:'Poppins', sans-serif;
 	opacity:1;
 	top:-10%;
 	/*color:#777;*/
 }
 
 #slide .slideOpciones h3{
-	text-transform: uppercase;
-	font-family: 'Ubuntu Condensed', sans-serif;
+	font-family:'Poppins', sans-serif;
 	opacity:1;
 	top:-10%;
 	/*color:#888;*/
