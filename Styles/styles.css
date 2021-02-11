@@ -8,7 +8,7 @@
   
   /*===== Colores =====*/
   :root{
-    --first-color: #072e97;
+    --first-color: #072e9a;
     --second-color: #0E2431;
   }
   
@@ -75,6 +75,15 @@
     display: block;
   }
   /*===== CLASS CSS ===== */
+  .carousel-item {
+    height: 82vh;
+    min-height:600px ;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 .section-title{
     position: relative;
     font-size: var(--h2-font-size);
@@ -145,7 +154,7 @@
   }
   .nav__link{
     position: relative;
-    color: #fff;
+    color: #ffffff;
   }
   .nav__link:hover{
     position: relative;
