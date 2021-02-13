@@ -1,2 +1,2 @@
 # Business Template
-Work in progress, wait! 
+Work in progress 
