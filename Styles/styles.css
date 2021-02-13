@@ -45,6 +45,7 @@
     --z-fixed: 100;
   }
   /*===== BASE =====*/
+
 *,::before,::after{
     box-sizing: border-box;
   }
@@ -75,6 +76,21 @@
     display: block;
   }
   /*===== CLASS CSS ===== */
+  button{
+    width: 300px;
+    height: 65px;
+    color:#000;
+    font-size: 12px;
+    padding: 12px 0px;
+    background: #fff;
+    border: 0;
+    border-radius:50px;
+    outline: none;
+    margin-top: -5px;
+    cursor: pointer;
+    
+  
+  }
   .carousel-item {
     height: 82vh;
     min-height:600px ;
