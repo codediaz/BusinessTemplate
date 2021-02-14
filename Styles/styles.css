@@ -270,14 +270,13 @@
     padding:20px;
   }
   .container-about h1{
-    font-size:85px;
+    font-size:70px;
     text-align: center;
 
   }
   .container-about p{
     padding:1px;
-    font-size:34px;
-    line-height:2.5;
+    font-size:30px;
     text-align: center;
   }
   .container{
@@ -316,7 +315,12 @@
       margin-bottom: 20px;
 
   }
- 
+  .services-section h2{
+   font-size:50px; 
+ }
+ .services-section p{
+  font-size:20px; 
+}
 
   /*Codediaz*/ 
 
