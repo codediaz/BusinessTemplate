@@ -265,6 +265,21 @@
      
     }
   /*Codediaz*/  
+  .container-about{
+    width:100%;
+    padding:20px;
+  }
+  .container-about h1{
+    font-size:85px;
+    text-align: center;
+
+  }
+  .container-about p{
+    padding:1px;
+    font-size:34px;
+    line-height:2.5;
+    text-align: center;
+  }
   .container{
     width: 100%;
     display: flex;
