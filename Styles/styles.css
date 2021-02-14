@@ -321,7 +321,23 @@
  .services-section p{
   font-size:20px; 
 }
-
+.button-services{
+	border:0px;
+  font-size: 19px;
+  border-radius:60px;
+  align-items: center;
+  text-align:center;
+	margin-top:10px;
+  background: var(--second-color);;
+  color:#fff;	
+	opacity:1;
+	top:-10%;
+}
+.button-services:hover{
+	background:#ff6a34;
+	color:#ffffff;
+	border:0px;
+}
   /*Codediaz*/ 
 
     .about__container, .skills__container{
