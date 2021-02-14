@@ -340,6 +340,51 @@
 }
   /*Codediaz*/ 
 
+  /*Codediaz *2*/
+
+ /* Clientes */
+ .clientes-section h2{
+  font-size:50px; 
+ }
+ .cards{
+  display: flex;
+  justify-content: space-evenly;
+}
+ .clientes-section .cards .card-cliente{
+  background: #ff6a34;
+  display: flex;
+  width: 46%;
+  height: 200px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.clientes-section .cards .card-cliente img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  display: block;
+}
+
+.clientes-section .cards .card-cliente> .contenido-texto-card{
+  width: 60%;
+  color: #fff;
+}
+
+.clientes-section .cards .card-cliente > .contenido-texto-card p{
+  font-weight: 300;
+  padding-top: 5px;
+}
+
+/*Codediaz *2*/
+
+   
+
+
     .about__container, .skills__container{
       grid-template-columns: repeat(2,1fr);
       align-items: center;
